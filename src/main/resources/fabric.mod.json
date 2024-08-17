@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "extra-discs",
+  "version": "${version}",
+  "name": "Extra Disks",
+  "description": "Extra Discs is a Fabric mod for Minecraft aiming to add more vanilla feeling music discs to the game.\n\nMusic By C418\nhttps://c418.bandcamp.com",
+  "authors": [
+    "Cody"
+  ],
+  "contact": {
+    "sources": "https://github.com/CatDevz/ExtraDiscs",
+    "issues": "https://github.com/CatDevz/ExtraDiscs/issues",
+    "homepage": "https://github.com/CatDevz/ExtraDiscs",
+    "website": "https://github.com/CatDevz/ExtraDiscs",
+    "repo": "https://github.com/CatDevz/ExtraDiscs",
+    "discord": "https://discord.gg/7TqeUHE"
+  },
+  "license": "MIT",
+  "icon": "assets/extra_discs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.codyq.extradiscs.ExtraDiscs"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
