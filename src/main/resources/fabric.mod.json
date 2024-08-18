@@ -1,32 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "extra-discs",
+  "id": "blarium",
   "version": "${version}",
-  "name": "Extra Discs",
-  "description": "Extra Discs is a Fabric mod for Minecraft aiming to add more vanilla feeling music discs to the game.\n\nMusic By C418\nhttps://c418.bandcamp.com",
+  "name": "Blarium",
+  "description": "",
   "authors": [
-    "Cody"
+    "Boofdev"
   ],
   "contact": {
-    "sources": "https://github.com/CatDevz/ExtraDiscs",
-    "issues": "https://github.com/CatDevz/ExtraDiscs/issues",
-    "homepage": "https://github.com/CatDevz/ExtraDiscs",
-    "website": "https://github.com/CatDevz/ExtraDiscs",
-    "repo": "https://github.com/CatDevz/ExtraDiscs",
-    "discord": "https://discord.gg/7TqeUHE"
+    "sources": "https://github.com/hexahigh/blarium",
+    "issues": "https://github.com/hexahigh/blarium/issues",
+    "homepage": "https://github.com/hexahigh/blarium",
+    "website": "https://github.com/hexahigh/blarium",
+    "repo": "https://github.com/hexahigh/blarium"
   },
   "license": "MIT",
   "icon": "assets/extra_discs/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.boofdev.extradiscs.ExtraDiscs"
+      "dev.boofdev.blarium.Blarium"
+    ],
+    "fabric-datagen": [
+      "dev.boofdev.blarium.BlariumDataGenerator"
     ]
   },
   "mixins": [],
   "depends": {
     "fabricloader": ">=0.14.0",
     "fabric": "*",
-    "minecraft": "1.20.x"
+    "minecraft": "1.20.x",
+    "fabric-api": "*"
   }
 }

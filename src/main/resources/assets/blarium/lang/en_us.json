@@ -1,0 +1,24 @@
+{
+  "item.blarium.disc_the_flame": "Music Disc",
+  "item.blarium.disc_the_flame.desc": "Parov Stelar - The Flame",
+
+  "item.blarium.disc_matilda": "Music Disc",
+  "item.blarium.disc_matilda.desc": "Parov Stelar - Matilda",
+
+  "item.blarium.disc_libella_swing": "Music Disc",
+  "item.blarium.disc_libella_swing.desc": "Parov Stelar - Libella Swing",
+
+  "item.blarium.disc_hotel_axos": "Music Disc",
+  "item.blarium.disc_hotel_axos.desc": "Parov Stelar - Hotel Axos",
+  
+  "item.blarium.disc_catgroove": "Music Disc",
+  "item.blarium.disc_catgroove.desc": "Parov Stelar - CatGroove",
+
+  "item.blarium.disc_fleur_de_lille": "Music Disc",
+  "item.blarium.disc_fleur_de_lille.desc": "Parov Stelar - Fleur de Lille",
+
+  "item.blarium.token": "Token",
+  "item.blarium.token.desc": "Can be used for trading",
+
+  "itemgroup.blarium": "Blarium"
+}

@@ -1,0 +1,50 @@
+{
+  "disc_the_flame": {
+    "sounds": [
+      {
+        "name": "blarium:records/the_flame",
+        "stream": true
+      }
+    ]
+  },
+  "disc_matilda": {
+    "sounds": [
+      {
+        "name": "blarium:records/matilda",
+        "stream": true
+      }
+    ]
+  },
+  "disc_libella_swing": {
+    "sounds": [
+      {
+        "name": "blarium:records/libella_swing",
+        "stream": true
+      }
+    ]
+  },
+  "disc_hotel_axos": {  
+    "sounds": [
+      {
+        "name": "blarium:records/hotel_axos",
+        "stream": true
+      }
+    ]
+  },
+  "disc_fleur_de_lille": {
+    "sounds": [
+      {
+        "name": "blarium:records/fleur_de_lille",
+        "stream": true
+      }
+    ]
+  },
+  "disc_catgroove": {
+    "sounds": [
+      {
+        "name": "blarium:records/catgroove",
+        "stream": true
+      }
+    ]
+  }
+} 
