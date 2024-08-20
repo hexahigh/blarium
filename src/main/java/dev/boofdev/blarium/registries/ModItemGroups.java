@@ -9,7 +9,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup EXTRA_DISCS_GROUP = Registry.register(Registries.ITEM_GROUP, new Identifier("extra_discs", "discs"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.extra_discs"))
+    public static final ItemGroup BLARUM = Registry.register(Registries.ITEM_GROUP, new Identifier("blarium", "discs"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.blarium"))
     .icon(() -> new ItemStack(ModItems.DISC_THE_FLAME)).entries((displayContext, entries) -> {
         entries.add(ModItems.DISC_THE_FLAME);
         entries.add(ModItems.DISC_MATILDA);
