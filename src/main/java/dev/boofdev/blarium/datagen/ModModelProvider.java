@@ -22,7 +22,9 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         // Discs
-        regMulGen(itemModelGenerator, ModItems.DISC_THE_FLAME, ModItems.DISC_MATILDA, ModItems.DISC_LIBELLA_SWING, ModItems.DISC_HOTEL_AXOS, ModItems.DISC_FLEUR_DE_LILLE, ModItems.DISC_CATGROOVE);
+        regMulGen(itemModelGenerator, ModItems.DISC_THE_FLAME, ModItems.DISC_MATILDA, ModItems.DISC_LIBELLA_SWING,
+                ModItems.DISC_HOTEL_AXOS, ModItems.DISC_FLEUR_DE_LILLE, ModItems.DISC_CATGROOVE,
+                ModItems.DISC_DROOPY_LIKES_RICOCHET, ModItems.DISC_DROOPY_LIKES_YOUR_FACE);
 
         itemModelGenerator.register(ModItems.TOKEN, Models.GENERATED);
     }
@@ -31,8 +33,8 @@ public class ModModelProvider extends FabricModelProvider {
      * Registers multiple items with the given ItemModelGenerator.
      * Models are automatically generated from the given items
      *
-     * @param  itemModelGenerator the ItemModelGenerator to register the items with
-     * @param  items             the items to register
+     * @param itemModelGenerator the ItemModelGenerator to register the items with
+     * @param items              the items to register
      */
     private void regMulGen(ItemModelGenerator itemModelGenerator, Item... items) {
         for (Item item : items) {

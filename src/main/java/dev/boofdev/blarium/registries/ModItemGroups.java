@@ -17,6 +17,8 @@ public class ModItemGroups {
         entries.add(ModItems.DISC_HOTEL_AXOS);
         entries.add(ModItems.DISC_FLEUR_DE_LILLE);
         entries.add(ModItems.DISC_CATGROOVE);
+        entries.add(ModItems.DISC_DROOPY_LIKES_RICOCHET);
+        entries.add(ModItems.DISC_DROOPY_LIKES_YOUR_FACE);
 
         entries.add(ModItems.TOKEN);
     }).build());
