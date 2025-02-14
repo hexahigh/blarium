@@ -16,6 +16,9 @@ public class ModSounds {
     public static final SoundEvent DISC_CATGROOVE = register("disc_catgroove");
     public static final SoundEvent DISC_DROOPY_LIKES_RICOCHET = register("disc_droopy_likes_ricochet");
     public static final SoundEvent DISC_DROOPY_LIKES_YOUR_FACE = register("disc_droopy_likes_your_face");
+    public static final SoundEvent DISC_THROW_IT_BACK = register("disc_throw_it_back");
+    public static final SoundEvent DISC_APRIL_SHOWERS = register("disc_april_showers");
+    public static final SoundEvent DISC_FAIDHERBE_SQUARE = register("disc_faidherbe_square");
 
     public static SoundEvent register(String name) {
         Identifier id = new Identifier(Blarium.MOD_ID, name);

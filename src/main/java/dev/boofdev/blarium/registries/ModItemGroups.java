@@ -19,6 +19,9 @@ public class ModItemGroups {
         entries.add(ModItems.DISC_CATGROOVE);
         entries.add(ModItems.DISC_DROOPY_LIKES_RICOCHET);
         entries.add(ModItems.DISC_DROOPY_LIKES_YOUR_FACE);
+        entries.add(ModItems.DISC_THROW_IT_BACK);
+        entries.add(ModItems.DISC_APRIL_SHOWERS);
+        entries.add(ModItems.DISC_FAIDHERBE_SQUARE);
 
         entries.add(ModItems.TOKEN);
     }).build());

@@ -62,5 +62,29 @@
         "stream": true
       }
     ]
+  },
+  "disc_faidherbe_square": {
+    "sounds": [
+      {
+        "name": "blarium:records/faidherbe_square",
+        "stream": true
+      }
+    ]
+  },
+  "disc_april_showers": {
+    "sounds": [
+      {
+        "name": "blarium:records/april_showers",
+        "stream": true
+      }
+    ]
+  },
+  "disc_throw_it_back": {
+    "sounds": [
+      {
+        "name": "blarium:records/throw_it_back",
+        "stream": true
+      }
+    ]
   }
 } 

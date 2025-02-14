@@ -24,7 +24,8 @@ public class ModModelProvider extends FabricModelProvider {
         // Discs
         regMulGen(itemModelGenerator, ModItems.DISC_THE_FLAME, ModItems.DISC_MATILDA, ModItems.DISC_LIBELLA_SWING,
                 ModItems.DISC_HOTEL_AXOS, ModItems.DISC_FLEUR_DE_LILLE, ModItems.DISC_CATGROOVE,
-                ModItems.DISC_DROOPY_LIKES_RICOCHET, ModItems.DISC_DROOPY_LIKES_YOUR_FACE);
+                ModItems.DISC_DROOPY_LIKES_RICOCHET, ModItems.DISC_DROOPY_LIKES_YOUR_FACE,
+                ModItems.DISC_THROW_IT_BACK, ModItems.DISC_FAIDHERBE_SQUARE, ModItems.DISC_APRIL_SHOWERS);
 
         itemModelGenerator.register(ModItems.TOKEN, Models.GENERATED);
     }

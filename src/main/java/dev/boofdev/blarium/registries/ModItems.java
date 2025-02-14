@@ -20,6 +20,10 @@ public class ModItems {
     public static final Item DISC_FLEUR_DE_LILLE = registerDisc("disc_fleur_de_lille", ModSounds.DISC_FLEUR_DE_LILLE, 317);
     public static final Item DISC_CATGROOVE = registerDisc("disc_catgroove", ModSounds.DISC_CATGROOVE, 238);
 
+    public static final Item DISC_THROW_IT_BACK = registerDisc("disc_throw_it_back", ModSounds.DISC_THROW_IT_BACK, 181);
+    public static final Item DISC_APRIL_SHOWERS = registerDisc("disc_april_showers", ModSounds.DISC_APRIL_SHOWERS, 275);
+    public static final Item DISC_FAIDHERBE_SQUARE = registerDisc("disc_faidherbe_square", ModSounds.DISC_FAIDHERBE_SQUARE, 207);
+
     public static final Item DISC_DROOPY_LIKES_RICOCHET = registerDisc("disc_droopy_likes_ricochet", ModSounds.DISC_DROOPY_LIKES_RICOCHET, 203);
     public static final Item DISC_DROOPY_LIKES_YOUR_FACE = registerDisc("disc_droopy_likes_your_face", ModSounds.DISC_DROOPY_LIKES_YOUR_FACE, 203);
 
