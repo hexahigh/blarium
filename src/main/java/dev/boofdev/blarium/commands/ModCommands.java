@@ -29,6 +29,15 @@ public class ModCommands {
             Registries.ITEM.getIds().forEach(id -> builder.suggest(id.toString()));
             return CompletableFuture.completedFuture(builder.build());
         };
+    private static final SuggestionProvider<ServerCommandSource> DISC_SUGGESTIONS = 
+        (context, builder) -> {
+            Registries.ITEM.getIds().forEach(id -> {
+                if (id.getPath().startsWith("disc_")) {
+                    builder.suggest(id.toString());
+                }
+            });
+            return CompletableFuture.completedFuture(builder.build());
+        };
 
     public static void init() {
         CommandRegistrationCallback.EVENT.register(ModCommands::registerCommands);
@@ -38,10 +47,10 @@ public class ModCommands {
                                        CommandRegistryAccess registryAccess,
                                        CommandManager.RegistrationEnvironment environment) {
         dispatcher.register(CommandManager.literal("blarium")
-            .then(CommandManager.literal("give")
+            .then(CommandManager.literal("giveDisc")
                 .then(CommandManager.argument("user", EntityArgumentType.player())
                     .then(CommandManager.argument("item", IdentifierArgumentType.identifier())
-                        .suggests(ITEM_SUGGESTIONS)
+                        .suggests(DISC_SUGGESTIONS)
                         // Branch without count (defaults to 1)
                         .executes(context -> executeGiveCommand(context, 1))
                         // Branch with count
