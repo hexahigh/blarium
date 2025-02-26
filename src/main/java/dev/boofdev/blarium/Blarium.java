@@ -1,5 +1,6 @@
 package dev.boofdev.blarium;
 
+import dev.boofdev.blarium.commands.ModCommands;
 import dev.boofdev.blarium.registries.ModItemGroups;
 import dev.boofdev.blarium.registries.ModItems;
 import dev.boofdev.blarium.registries.ModSounds;
@@ -17,6 +18,7 @@ public class Blarium implements ModInitializer {
         ModItems.init();
         ModSounds.init();
         ModItemGroups.init();
+        ModCommands.init();
     }
 
 }

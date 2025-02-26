@@ -35,5 +35,8 @@
   "item.blarium.token": "Token",
   "item.blarium.token.desc": "Can be used for trading",
 
-  "itemgroup.blarium": "Blarium"
+  "itemgroup.blarium": "Blarium",
+
+  "commands.blarium.give.success": "Gave %s %s to %s",
+  "commands.blarium.give.no_permission": "You need the %s permission to do that!"
 }
