@@ -27,6 +27,29 @@ public class ModItems {
     public static final Item DISC_DROOPY_LIKES_RICOCHET = registerDisc("disc_droopy_likes_ricochet", ModSounds.DISC_DROOPY_LIKES_RICOCHET, 203);
     public static final Item DISC_DROOPY_LIKES_YOUR_FACE = registerDisc("disc_droopy_likes_your_face", ModSounds.DISC_DROOPY_LIKES_YOUR_FACE, 203);
 
+    public static final Item DISC_SIGMA_BOY = registerDisc("disc_sigma_boy", ModSounds.DISC_SIGMA_BOY, 143);
+
+    public static final Item DISC_ARCTIC_PULSE = registerDisc("disc_arctic_pulse", ModSounds.DISC_ARCTIC_PULSE, 167);
+    public static final Item DISC_BEAUTIFUL_HORIZONS = registerDisc("disc_beautiful_horizons", ModSounds.DISC_BEAUTIFUL_HORIZONS, 358);
+    public static final Item DISC_ECHOES_OF_THE_PAST = registerDisc("disc_echoes_of_the_past", ModSounds.DISC_ECHOES_OF_THE_PAST, 185);
+    public static final Item DISC_ME_AND_THE_MOUNTAINS = registerDisc("disc_me_and_the_mountains", ModSounds.DISC_ME_AND_THE_MOUNTAINS, 185);
+    public static final Item DISC_ME_AND_THE_MOUNTAINS_2 = registerDisc("disc_me_and_the_mountains_2", ModSounds.DISC_ME_AND_THE_MOUNTAINS_2, 131);
+    public static final Item DISC_ME_AND_THE_WILDERNESS = registerDisc("disc_me_and_the_wilderness", ModSounds.DISC_ME_AND_THE_WILDERNESS, 137);
+    public static final Item DISC_MUSIC_FOR_THE_LONELY_MAN = registerDisc("disc_music_for_the_lonely_man", ModSounds.DISC_MUSIC_FOR_THE_LONELY_MAN, 168);
+    public static final Item DISC_MUSIC_FOR_THE_LONELY_MAN_2 = registerDisc("disc_music_for_the_lonely_man_2", ModSounds.DISC_MUSIC_FOR_THE_LONELY_MAN_2, 183);
+    public static final Item DISC_RUNNING_LIKE_THE_WIND = registerDisc("disc_running_like_the_wind", ModSounds.DISC_RUNNING_LIKE_THE_WIND, 79);
+    public static final Item DISC_SOLITAIRE = registerDisc("disc_solitaire", ModSounds.DISC_SOLITAIRE, 94);
+    public static final Item DISC_SON_OF_FREEDOM = registerDisc("disc_son_of_freedom", ModSounds.DISC_SON_OF_FREEDOM, 305);
+    public static final Item DISC_SON_OF_THE_WILDERNESS = registerDisc("disc_son_of_the_wilderness", ModSounds.DISC_SON_OF_THE_WILDERNESS, 109);
+    public static final Item DISC_THE_DOG = registerDisc("disc_the_dog", ModSounds.DISC_THE_DOG, 148);
+    public static final Item DISC_THE_NATIONAL_PARK = registerDisc("disc_the_national_park", ModSounds.DISC_THE_NATIONAL_PARK, 198);
+    public static final Item DISC_TRUMPET_TUNE_1 = registerDisc("disc_trumpet_tune_1", ModSounds.DISC_TRUMPET_TUNE_1, 174);
+    public static final Item DISC_TRUMPET_TUNE_2 = registerDisc("disc_trumpet_tune_2", ModSounds.DISC_TRUMPET_TUNE_2, 74);
+    public static final Item DISC_WALKING_SLOW_1 = registerDisc("disc_walking_slow_1", ModSounds.DISC_WALKING_SLOW_1, 115);
+    public static final Item DISC_WALKING_SLOW_2 = registerDisc("disc_walking_slow_2", ModSounds.DISC_WALKING_SLOW_2, 305);
+    public static final Item DISC_WALKING_SLOW_3 = registerDisc("disc_walking_slow_3", ModSounds.DISC_WALKING_SLOW_3, 173);
+    public static final Item DISC_WHISTLING_IN_THE_WIND = registerDisc("disc_whistling_in_the_wind", ModSounds.DISC_WHISTLING_IN_THE_WIND, 142);
+
     public static final Item TOKEN = registerItem("token", new Item(new Item.Settings()));
     
 

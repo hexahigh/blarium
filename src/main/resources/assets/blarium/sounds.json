@@ -1,40 +1,24 @@
 {
-  "disc_the_flame": {
+  "disc_april_showers": {
     "sounds": [
       {
-        "name": "blarium:records/the_flame",
+        "name": "blarium:records/april_showers",
         "stream": true
       }
     ]
   },
-  "disc_matilda": {
+  "disc_arctic_pulse": {
     "sounds": [
       {
-        "name": "blarium:records/matilda",
+        "name": "blarium:records/arctic_pulse",
         "stream": true
       }
     ]
   },
-  "disc_libella_swing": {
+  "disc_beautiful_horizons": {
     "sounds": [
       {
-        "name": "blarium:records/libella_swing",
-        "stream": true
-      }
-    ]
-  },
-  "disc_hotel_axos": {  
-    "sounds": [
-      {
-        "name": "blarium:records/hotel_axos",
-        "stream": true
-      }
-    ]
-  },
-  "disc_fleur_de_lille": {
-    "sounds": [
-      {
-        "name": "blarium:records/fleur_de_lille",
+        "name": "blarium:records/beautiful_horizons",
         "stream": true
       }
     ]
@@ -63,6 +47,14 @@
       }
     ]
   },
+  "disc_echoes_of_the_past": {
+    "sounds": [
+      {
+        "name": "blarium:records/echoes_of_the_past",
+        "stream": true
+      }
+    ]
+  },
   "disc_faidherbe_square": {
     "sounds": [
       {
@@ -71,10 +63,138 @@
       }
     ]
   },
-  "disc_april_showers": {
+  "disc_fleur_de_lille": {
     "sounds": [
       {
-        "name": "blarium:records/april_showers",
+        "name": "blarium:records/fleur_de_lille",
+        "stream": true
+      }
+    ]
+  },
+  "disc_hotel_axos": {
+    "sounds": [
+      {
+        "name": "blarium:records/hotel_axos",
+        "stream": true
+      }
+    ]
+  },
+  "disc_libella_swing": {
+    "sounds": [
+      {
+        "name": "blarium:records/libella_swing",
+        "stream": true
+      }
+    ]
+  },
+  "disc_matilda": {
+    "sounds": [
+      {
+        "name": "blarium:records/matilda",
+        "stream": true
+      }
+    ]
+  },
+  "disc_me_and_the_mountains": {
+    "sounds": [
+      {
+        "name": "blarium:records/me_and_the_mountains",
+        "stream": true
+      }
+    ]
+  },
+  "disc_me_and_the_mountains_2": {
+    "sounds": [
+      {
+        "name": "blarium:records/me_and_the_mountains_2",
+        "stream": true
+      }
+    ]
+  },
+  "disc_me_and_the_wilderness": {
+    "sounds": [
+      {
+        "name": "blarium:records/me_and_the_wilderness",
+        "stream": true
+      }
+    ]
+  },
+  "disc_music_for_the_lonely_man": {
+    "sounds": [
+      {
+        "name": "blarium:records/music_for_the_lonely_man",
+        "stream": true
+      }
+    ]
+  },
+  "disc_music_for_the_lonely_man_2": {
+    "sounds": [
+      {
+        "name": "blarium:records/music_for_the_lonely_man_2",
+        "stream": true
+      }
+    ]
+  },
+  "disc_running_like_the_wind": {
+    "sounds": [
+      {
+        "name": "blarium:records/running_like_the_wind",
+        "stream": true
+      }
+    ]
+  },
+  "disc_sigma_boy": {
+    "sounds": [
+      {
+        "name": "blarium:records/sigma_boy",
+        "stream": true
+      }
+    ]
+  },
+  "disc_solitaire": {
+    "sounds": [
+      {
+        "name": "blarium:records/solitaire",
+        "stream": true
+      }
+    ]
+  },
+  "disc_son_of_freedom": {
+    "sounds": [
+      {
+        "name": "blarium:records/son_of_freedom",
+        "stream": true
+      }
+    ]
+  },
+  "disc_son_of_the_wilderness": {
+    "sounds": [
+      {
+        "name": "blarium:records/son_of_the_wilderness",
+        "stream": true
+      }
+    ]
+  },
+  "disc_the_dog": {
+    "sounds": [
+      {
+        "name": "blarium:records/the_dog",
+        "stream": true
+      }
+    ]
+  },
+  "disc_the_flame": {
+    "sounds": [
+      {
+        "name": "blarium:records/the_flame",
+        "stream": true
+      }
+    ]
+  },
+  "disc_the_national_park": {
+    "sounds": [
+      {
+        "name": "blarium:records/the_national_park",
         "stream": true
       }
     ]
@@ -86,5 +206,53 @@
         "stream": true
       }
     ]
+  },
+  "disc_trumpet_tune_1": {
+    "sounds": [
+      {
+        "name": "blarium:records/trumpet_tune_1",
+        "stream": true
+      }
+    ]
+  },
+  "disc_trumpet_tune_2": {
+    "sounds": [
+      {
+        "name": "blarium:records/trumpet_tune_2",
+        "stream": true
+      }
+    ]
+  },
+  "disc_walking_slow_1": {
+    "sounds": [
+      {
+        "name": "blarium:records/walking_slow_1",
+        "stream": true
+      }
+    ]
+  },
+  "disc_walking_slow_2": {
+    "sounds": [
+      {
+        "name": "blarium:records/walking_slow_2",
+        "stream": true
+      }
+    ]
+  },
+  "disc_walking_slow_3": {
+    "sounds": [
+      {
+        "name": "blarium:records/walking_slow_3",
+        "stream": true
+      }
+    ]
+  },
+  "disc_whistling_in_the_wind": {
+    "sounds": [
+      {
+        "name": "blarium:records/whistling_in_the_wind",
+        "stream": true
+      }
+    ]
   }
-} 
+}

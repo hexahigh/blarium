@@ -32,7 +32,7 @@ public class ModCommands {
     private static final SuggestionProvider<ServerCommandSource> DISC_SUGGESTIONS = 
         (context, builder) -> {
             Registries.ITEM.getIds().forEach(id -> {
-                if (id.getPath().startsWith("disc_")) {
+                if (id.getPath().startsWith("disc_") || id.getPath().startsWith("music_disc_")) {
                     builder.suggest(id.toString());
                 }
             });
@@ -73,7 +73,7 @@ public class ModCommands {
         Item item = Registries.ITEM.get(itemId);
 
         // Check permissions
-        boolean isDisc = itemId.getPath().startsWith("disc_");
+        boolean isDisc = itemId.getPath().startsWith("disc_") || itemId.getPath().startsWith("music_disc_");
 
         if (item == Items.AIR) {
             context.getSource().sendError(Text.literal("Invalid item: " + itemId));
