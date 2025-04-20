@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_son_of_freedom.desc"
+    },
+    "length_in_seconds": 305.0,
+    "sound_event": "blarium:disc_son_of_freedom"
+}

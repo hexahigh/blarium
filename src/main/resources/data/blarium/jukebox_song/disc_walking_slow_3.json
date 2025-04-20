@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_walking_slow_3.desc"
+    },
+    "length_in_seconds": 173.0,
+    "sound_event": "blarium:disc_walking_slow_3"
+}

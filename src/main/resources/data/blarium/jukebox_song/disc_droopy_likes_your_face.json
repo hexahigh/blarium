@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_droopy_likes_your_face.desc"
+    },
+    "length_in_seconds": 203.0,
+    "sound_event": "blarium:disc_droopy_likes_your_face"
+}

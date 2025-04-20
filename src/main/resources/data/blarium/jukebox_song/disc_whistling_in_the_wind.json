@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_whistling_in_the_wind.desc"
+    },
+    "length_in_seconds": 142.0,
+    "sound_event": "blarium:disc_whistling_in_the_wind"
+}

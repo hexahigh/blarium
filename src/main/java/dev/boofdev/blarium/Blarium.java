@@ -20,5 +20,4 @@ public class Blarium implements ModInitializer {
         ModItemGroups.init();
         ModCommands.init();
     }
-
 }

@@ -1,35 +1,35 @@
 {
-  "schemaVersion": 1,
-  "id": "blarium",
-  "version": "${version}",
-  "name": "Blarium",
-  "description": "",
-  "authors": [
-    "Boofdev"
-  ],
-  "contact": {
-    "sources": "https://github.com/hexahigh/blarium",
-    "issues": "https://github.com/hexahigh/blarium/issues",
-    "homepage": "https://github.com/hexahigh/blarium",
-    "website": "https://github.com/hexahigh/blarium",
-    "repo": "https://github.com/hexahigh/blarium"
-  },
-  "license": "MIT",
-  "icon": "assets/extra_discs/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "dev.boofdev.blarium.Blarium"
+    "authors": [
+        "Boofdev"
     ],
-    "fabric-datagen": [
-      "dev.boofdev.blarium.BlariumDataGenerator"
-    ]
-  },
-  "mixins": [],
-  "depends": {
-    "fabricloader": ">=0.14.0",
-    "fabric": "*",
-    "minecraft": "1.20.x",
-    "fabric-api": "*"
-  }
+    "contact": {
+        "homepage": "https://github.com/hexahigh/blarium",
+        "issues": "https://github.com/hexahigh/blarium/issues",
+        "repo": "https://github.com/hexahigh/blarium",
+        "sources": "https://github.com/hexahigh/blarium",
+        "website": "https://github.com/hexahigh/blarium"
+    },
+    "depends": {
+        "fabric": "*",
+        "fabric-api": "*",
+        "fabricloader": ">=0.16.13",
+        "minecraft": "1.21.x"
+    },
+    "description": "",
+    "entrypoints": {
+        "fabric-datagen": [
+            "dev.boofdev.blarium.BlariumDataGenerator"
+        ],
+        "main": [
+            "dev.boofdev.blarium.Blarium"
+        ]
+    },
+    "environment": "*",
+    "icon": "assets/extra_discs/icon.png",
+    "id": "blarium",
+    "license": "MIT",
+    "mixins": [],
+    "name": "Blarium",
+    "schemaVersion": 1,
+    "version": "${version}"
 }
