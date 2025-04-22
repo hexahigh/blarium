@@ -223,6 +223,14 @@
             }
         ]
     },
+    "disc_toe_wizard": {
+        "sounds": [
+            {
+                "name": "blarium:records/toe_wizard",
+                "stream": true
+            }
+        ]
+    },
     "disc_trumpet_tune_1": {
         "sounds": [
             {
@@ -275,14 +283,6 @@
         "sounds": [
             {
                 "name": "blarium:records/world_is_mine",
-                "stream": true
-            }
-        ]
-    },
-    "disc_toe_wizard": {
-        "sounds": [
-            {
-                "name": "blarium:records/toe_wizard",
                 "stream": true
             }
         ]
