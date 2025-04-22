@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_world_is_mine.desc"
+    },
+    "length_in_seconds": 173.44,
+    "sound_event": "blarium:disc_world_is_mine"
+}

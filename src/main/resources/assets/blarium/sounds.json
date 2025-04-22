@@ -135,6 +135,14 @@
             }
         ]
     },
+    "disc_restlessness": {
+        "sounds": [
+            {
+                "name": "blarium:records/restlessness",
+                "stream": true
+            }
+        ]
+    },
     "disc_running_like_the_wind": {
         "sounds": [
             {
@@ -171,6 +179,14 @@
         "sounds": [
             {
                 "name": "blarium:records/son_of_the_wilderness",
+                "stream": true
+            }
+        ]
+    },
+    "disc_telepathy": {
+        "sounds": [
+            {
+                "name": "blarium:records/telepathy",
                 "stream": true
             }
         ]
@@ -251,6 +267,22 @@
         "sounds": [
             {
                 "name": "blarium:records/whistling_in_the_wind",
+                "stream": true
+            }
+        ]
+    },
+    "disc_world_is_mine": {
+        "sounds": [
+            {
+                "name": "blarium:records/world_is_mine",
+                "stream": true
+            }
+        ]
+    },
+    "disc_toe_wizard": {
+        "sounds": [
+            {
+                "name": "blarium:records/toe_wizard",
                 "stream": true
             }
         ]

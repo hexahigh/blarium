@@ -49,6 +49,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                         ModItems.DISC_WALKING_SLOW_1,
                         ModItems.DISC_WALKING_SLOW_2,
                         ModItems.DISC_WALKING_SLOW_3,
-                        ModItems.DISC_WHISTLING_IN_THE_WIND);
+                        ModItems.DISC_WHISTLING_IN_THE_WIND,
+                        ModItems.DISC_WORLD_IS_MINE,
+                        ModItems.DISC_TELEPATHY,
+                        ModItems.DISC_RESTLESSNESS,
+                        ModItems.DISC_TOE_WIZARD);
     }
 }

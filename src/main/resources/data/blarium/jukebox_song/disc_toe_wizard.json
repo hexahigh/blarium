@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_toe_wizard.desc"
+    },
+    "length_in_seconds": 207.58,
+    "sound_event": "blarium:disc_toe_wizard"
+}

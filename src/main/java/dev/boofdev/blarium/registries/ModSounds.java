@@ -44,6 +44,10 @@ public class ModSounds {
     public static final SoundEvent DISC_WALKING_SLOW_2 = registerSoundEvent("disc_walking_slow_2");
     public static final SoundEvent DISC_WALKING_SLOW_3 = registerSoundEvent("disc_walking_slow_3");
     public static final SoundEvent DISC_WHISTLING_IN_THE_WIND = registerSoundEvent("disc_whistling_in_the_wind");
+    public static final SoundEvent DISC_WORLD_IS_MINE = registerSoundEvent("disc_world_is_mine");
+    public static final SoundEvent DISC_TELEPATHY = registerSoundEvent("disc_telepathy");
+    public static final SoundEvent DISC_RESTLESSNESS = registerSoundEvent("disc_restlessness");
+        public static final SoundEvent DISC_TOE_WIZARD = registerSoundEvent("disc_toe_wizard");
 
     // Add RegistryKeys for JukeboxSongs. (Holy fuck this is painful)
     public static final RegistryKey<JukeboxSong> DISC_APRIL_SHOWERS_KEY =
@@ -110,6 +114,14 @@ public class ModSounds {
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Blarium.MOD_ID, "disc_walking_slow_3"));
     public static final RegistryKey<JukeboxSong> DISC_WHISTLING_IN_THE_WIND_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Blarium.MOD_ID, "disc_whistling_in_the_wind"));
+    public static final RegistryKey<JukeboxSong> DISC_WORLD_IS_MINE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Blarium.MOD_ID, "disc_world_is_mine"));
+    public static final RegistryKey<JukeboxSong> DISC_TELEPATHY_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Blarium.MOD_ID, "disc_telepathy"));
+    public static final RegistryKey<JukeboxSong> DISC_RESTLESSNESS_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Blarium.MOD_ID, "disc_restlessness"));
+        public static final RegistryKey<JukeboxSong> DISC_TOE_WIZARD_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Blarium.MOD_ID, "disc_toe_wizard"));
 
     public static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(Blarium.MOD_ID, name);

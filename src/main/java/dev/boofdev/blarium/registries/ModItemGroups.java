@@ -53,6 +53,11 @@ public class ModItemGroups {
                         entries.add(ModItems.DISC_WALKING_SLOW_3);
                         entries.add(ModItems.DISC_WHISTLING_IN_THE_WIND);
 
+                        entries.add(ModItems.DISC_WORLD_IS_MINE);
+                        entries.add(ModItems.DISC_TELEPATHY);
+                        entries.add(ModItems.DISC_RESTLESSNESS);
+                        entries.add(ModItems.DISC_TOE_WIZARD);
+
                         entries.add(ModItems.TOKEN);
                     })
                     .build());

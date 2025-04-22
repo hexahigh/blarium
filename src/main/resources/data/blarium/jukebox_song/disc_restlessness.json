@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_restlessness.desc"
+    },
+    "length_in_seconds": 208.46,
+    "sound_event": "blarium:disc_restlessness"
+}

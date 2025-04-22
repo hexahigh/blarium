@@ -70,6 +70,12 @@ public class ModItems {
     public static final Item DISC_WHISTLING_IN_THE_WIND =
             registerDisc("disc_whistling_in_the_wind", ModSounds.DISC_WHISTLING_IN_THE_WIND_KEY);
 
+    public static final Item DISC_WORLD_IS_MINE = registerDisc("disc_world_is_mine", ModSounds.DISC_WORLD_IS_MINE_KEY);
+    public static final Item DISC_TELEPATHY = registerDisc("disc_telepathy", ModSounds.DISC_TELEPATHY_KEY);
+    public static final Item DISC_RESTLESSNESS = registerDisc("disc_restlessness", ModSounds.DISC_RESTLESSNESS_KEY);
+        public static final Item DISC_TOE_WIZARD =
+            registerDisc("disc_toe_wizard", ModSounds.DISC_TOE_WIZARD_KEY);
+
     public static final Item TOKEN = registerItem("token", new Item(new Item.Settings()));
 
     public static Item registerDisc(String name, RegistryKey<JukeboxSong> soundKey) {

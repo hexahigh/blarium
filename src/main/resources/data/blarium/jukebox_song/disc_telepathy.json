@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_telepathy.desc"
+    },
+    "length_in_seconds": 137.75,
+    "sound_event": "blarium:disc_telepathy"
+}
