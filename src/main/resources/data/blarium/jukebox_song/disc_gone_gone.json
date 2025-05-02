@@ -1,0 +1,8 @@
+{
+    "comparator_output": 15,
+    "description": {
+        "translate": "item.blarium.disc_gone_gone.desc"
+    },
+    "length_in_seconds": 375,
+    "sound_event": "blarium:disc_gone_gone"
+}

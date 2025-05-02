@@ -48,8 +48,10 @@ public class ModSounds {
     public static final SoundEvent DISC_TELEPATHY = registerSoundEvent("disc_telepathy");
     public static final SoundEvent DISC_RESTLESSNESS = registerSoundEvent("disc_restlessness");
     public static final SoundEvent DISC_TOE_WIZARD = registerSoundEvent("disc_toe_wizard");
-
+    public static final SoundEvent DISC_SONG_NAME = registerSoundEvent("disc_gone_gone");
     // Add RegistryKeys for JukeboxSongs. (Holy fuck this is painful)
+    public static final RegistryKey<JukeboxSong> DISC_GONE_GONE_KEY =
+            RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Blarium.MOD_ID, "disc_gone_gone"));
     public static final RegistryKey<JukeboxSong> DISC_APRIL_SHOWERS_KEY =
             RegistryKey.of(RegistryKeys.JUKEBOX_SONG, Identifier.of(Blarium.MOD_ID, "disc_april_showers"));
     public static final RegistryKey<JukeboxSong> DISC_ARCTIC_PULSE_KEY =
