@@ -2,7 +2,7 @@ package dev.boofdev.blarium.registries;
 
 import dev.boofdev.blarium.Blarium;
 import net.minecraft.block.jukebox.JukeboxSong;
-import net.minecraft.item.*;
+import net.minecraft.item.Item;
 import net.minecraft.item.Item.Settings;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -74,6 +74,7 @@ public class ModItems {
     public static final Item DISC_TELEPATHY = registerDisc("disc_telepathy", ModSounds.DISC_TELEPATHY_KEY);
     public static final Item DISC_RESTLESSNESS = registerDisc("disc_restlessness", ModSounds.DISC_RESTLESSNESS_KEY);
     public static final Item DISC_TOE_WIZARD = registerDisc("disc_toe_wizard", ModSounds.DISC_TOE_WIZARD_KEY);
+    public static final Item DISC_GONE_GONE = registerDisc("disc_gone_gone", ModSounds.DISC_GONE_GONE_KEY);
 
     public static final Item TOKEN = registerItem("token", new Item(new Item.Settings()));
 

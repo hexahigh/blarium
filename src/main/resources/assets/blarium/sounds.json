@@ -71,6 +71,14 @@
             }
         ]
     },
+    "disc_gone_gone": {
+        "sounds": [
+            {
+                "name": "blarium:records/gone_gone",
+                "stream": true
+            }
+        ]
+    },
     "disc_hotel_axos": {
         "sounds": [
             {

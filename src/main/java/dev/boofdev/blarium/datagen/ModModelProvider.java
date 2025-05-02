@@ -58,7 +58,8 @@ public class ModModelProvider extends FabricModelProvider {
                 ModItems.DISC_WORLD_IS_MINE,
                 ModItems.DISC_TELEPATHY,
                 ModItems.DISC_RESTLESSNESS,
-                ModItems.DISC_TOE_WIZARD);
+                ModItems.DISC_TOE_WIZARD,
+                ModItems.DISC_GONE_GONE);
 
         itemModelGenerator.register(ModItems.TOKEN, Models.GENERATED);
     }

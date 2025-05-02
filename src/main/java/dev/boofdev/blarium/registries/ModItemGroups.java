@@ -57,6 +57,7 @@ public class ModItemGroups {
                         entries.add(ModItems.DISC_TELEPATHY);
                         entries.add(ModItems.DISC_RESTLESSNESS);
                         entries.add(ModItems.DISC_TOE_WIZARD);
+                        entries.add(ModItems.DISC_GONE_GONE);
 
                         entries.add(ModItems.TOKEN);
                     })
